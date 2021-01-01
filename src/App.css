@@ -1,38 +1,345 @@
-.App {
-  text-align: center;
+html * {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'rooney-sans', sans-serif;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-family: 'ff-cocon-pro', sans-serif;
+  color: #eb8258;
+  padding-top: 25vh;
+  font-size: 60pt;
+}
+
+h2 {
+  color: #2a9d8f;
+}
+
+h3 {
+}
+
+/*vertical*/
+
+  #vertical {
+    background-image: url("bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    margin-bottom: 25vh;
+    padding: 0;
+    z-index: 1;
+    position: relative;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #sand {
+    background-image: url("sand.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 2;
+    height: inherit;
+    width: 100%;
+    position: relative;
+    bottom: 15vh;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  #kitegals {
+    background-image: url('kitegals2.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    margin-left: 15vw;
+    bottom: 1vh;
+    z-index: 3;
 }
+
+/*horizontal */
+
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 400vw;
+    overflow: hidden;
+    background-image: url("bg2.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 0;
+    z-index: 0;
+  }
+
+  #horizontal {
+    display: flex;
+    width: 100%;
+  }
+
+  #cliffface {
+    background-image: url("cliffface.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    width: 300vw;
+  }
+
+  #cliffface > div {
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #road {
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  #roadimg {
+    background-image: url("road.png");
+    background-size: 25%;
+    width: 500%;
+    height: 100%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+
+/* About */
+
+  #about {
+    width: 60vw;
+    height: 75vh;
+    background-color: #edf0e2;
+    border-radius: 30px;
+    margin-left: 13vw;
+    margin-top: 7.5vh;
+    box-shadow: -2px 7px 10px rgb(0, 0, 0, .25);
+    overflow: hidden;
+  }
+
+  #about > div {
+    border: solid #eb8258;
+    border-width: 10px;
+    border-image: url("border.svg") 20 repeat;
+    border-radius: 20px;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 90%;
+    max-height: 90%;
+    margin: auto;
+    margin-top: 2.5%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .break {
+    border-right: 3pt solid #2a9d8f;
+  }
+
+  .text {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-right: 2vw;
+    color: #2a9d8f;
+    font-size: 12pt;
+    line-height: 1.75;
+  }
+
+  #about .text {
+    max-width: 40%;
+    max-height: 50%;
+  }
+
+  .text h3 {
+    color: #264653;
+    font-size: 28pt;
+    margin-left: -2vw;
+    margin-bottom: 5%;
+    font-family: 'ff-cocon-pro', sans-serif;
+  }
+
+  .line {
+    max-height: 50%;
+    height: 50%;
+    width: 40%;
+    padding-left: 5%;
+  }
+
+  hr {
+    text-align: center;
+    color: #2a9d8f;
+  }
+
+  #wewantto {
+    margin-top: 55%;
+    margin-right: 5%;
+
+  }
+
+  #wewantto h3 {
+    transform: rotate(-30deg);
+    font-family: pacifico, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    bottom: 200px;
+    font-size: 3em;
+    line-height: 1.5;
+    color: #264653;
+    margin-left: 5%;
+  }
+
+  .lines br {
+    line-height: 3;
+  }
+
+  .title {
+    margin-left: 15vw;
+  }
+
+  .stamp {
+    background-image: url("stamp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 75px;
+    float: right;
+    margin-top: 5%;
+  }
+
+  /*Schedule*/
+
+  #schedule {
+    margin-top: 12.5vh;
+  }
+
+  #schedule .text, #schedule h3 {
+    color: #edf0e2;
+  }
+
+  #schedule h3 {
+    margin-bottom: auto;
+  }
+
+  .hourly {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+  }
+
+  .hourly > p {
+    width: 25%;
+  }
+
+  .days {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+  }
+
+  .day {
+    margin-right: 5vw;
+  }
+
+  .dayname {
+    font-size: 21pt;
+  }
+
+  .event, .timestamp {
+    font-size: 14pt;
+    line-height: 1.25
+  }
+
+  /* van */
+
+    #van {
+      background-image: url("van.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 750px;
+      position: relative;
+      bottom: 0;
+      margin-top: auto;
+      z-index: 4;
+    }
+
+
+/* partners */
+
+  #partners {
+    margin-top: 12.5vh;
+    min-width: 75vw;
+  }
+
+  #partners h3 {
+    font-size: 18pt;
+  }
+
+  #partnercloud {
+    display: flex;
+    max-width: 50vw;
+  }
+
+  .partner {
+    flex: 20%;
+    max-width: 20%;
+    margin-right: 5%;
+  }
+
+  .partner img {
+    width: 100%;
+  }
+
+  /* contact */
+
+  #contact {
+    min-width: 50vw;
+    margin-top: 17.5vh;
+  }
+
+
+  #contact > a {
+    padding: 15px;
+    background-color: #eb8258;
+    color: #edf0e2;
+    max-width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none !important;
+  }
+
+    #contact h3 {
+      color: #264653;
+      font-size: 42pt;
+    }
+
+    #socials {
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5vh;
+    }
+
+    #socials .social {
+      color: #eb8258;
+      text-transform: none;
+      flex: 20%;
+      max-width: 20%;
+      background-color: #edf0e2;
+      border-radius: 100%;
+      text-align: center;
+    }
