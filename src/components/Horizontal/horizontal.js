@@ -1,4 +1,4 @@
-import '../../App.scss';
+import './horizontal.scss';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import React, { useRef, useEffect, createRef } from 'react';
