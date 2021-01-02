@@ -1,4 +1,4 @@
-import './App.css';
+import '../../App.scss';
 import partners from './partners.json';
 
 const partnersmap = Array.from(partners);

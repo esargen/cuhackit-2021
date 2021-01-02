@@ -1,63 +1,15 @@
-import './App.css';
+import '../../App.scss';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import React, { useRef, useEffect, createRef } from 'react';
-import Schedule from './schedule';
-import Partnercloud from './partnercloud';
+import Schedule from '../Schedule/schedule';
+import Partnercloud from '../PartnerCloud/partnercloud';
 
 function Horizontal() {
 
-
-  gsap.registerPlugin(ScrollTrigger);
-
-  const container = React.createRef();
-  const road = React.createRef();
-  const van = React.createRef();
-
-  useEffect(() => {
-
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.to(container.current, {
-          xPercent: -100,
-          x: window.innerWidth,
-          ease: "none",
-            scrollTrigger: {
-              trigger: ".container",
-              start: "top top",
-              end: () => window.innerWidth * 3,
-              scrub: true,
-              pin: true,
-            },
-        });
-        /*gsap.to(road.current, {
-          xPercent: -40,
-          x: window.innerWidth,
-          ease: "none",
-            scrollTrigger: {
-              trigger: ".container",
-              start: "top top",
-              scrub: true
-            },
-        });*/
-        gsap.to(van.current, {
-           ease: "1",
-           xPercent: -100,
-           x: 300,
-           scrollTrigger: {
-             trigger: "#van",
-             start: "left right",
-             end: () => window.innerWidth,
-             scrub: true,
-             pinSpacing: false
-           },
-          });
-
-
-    }, []);
-
   return (
-    <div className="container" ref={container}>
-      <div id="road" ref={road}>
+    <div className="container">
+      <div id="road">
         <div id="roadimg"></div>
       </div>
       <div id="horizontal">
@@ -91,7 +43,7 @@ function Horizontal() {
             <Schedule />
           </div>
         </div>
-        <div ref={van} id="van">
+        <div id="van">
         </div>
         <Partnercloud />
         <div id="contact" class="text">
