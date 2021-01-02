@@ -11,6 +11,8 @@
   background-color: green;
 }
 
+
+
 // #mainHorizContent {
 //   display: flex;
 //   flex-direction: row;
@@ -37,17 +39,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    z-index: 1;
+    z-index: 3;
     position: relative;
     width: 300vw;
     float: left;
   }
 
   #clifffaceContent {
-    max-width: 70%;
+    max-width: 90%;
     display: flex;
     justify-content: space-between;
   }
+
+
+#container {
+  // overflow: hidden;
+  background-image: url("../../images/bg2.png");
+  // background-color: blue;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+  width: 500vw;
+  float: left;
+  margin-top: -90vh;
+  margin-left: 0vw;
+}
 
  
 
@@ -57,7 +75,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10vh;
-    margin-left: -10vw;
+    margin-left: -30vw;
   }
 
   #arrow {

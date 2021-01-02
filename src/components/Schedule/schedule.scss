@@ -1,7 +1,7 @@
  /*Schedule*/
 
  #schedule {
-    margin-top: 12.5vh;
+    margin-top: -7vh;
   }
 
   #schedule .text, #schedule h3 {
@@ -15,7 +15,7 @@
   .hourly {
     display: flex;
     justify-content: space-between;
-    margin-bottom: auto;
+    margin-bottom: 1vh;
   }
 
   .hourly > p {
@@ -24,19 +24,26 @@
 
   .days {
     display: flex;
-    justify-content: space-between;
-    width: 85vw;
+    justify-content: flex-start;
+    width: 120vw;
   }
 
   .day {
     margin-right: 5vw;
+    width: 50vw;
   }
 
   .dayname {
     font-size: 21pt;
   }
 
-  .event, .timestamp {
+.timestamp {
     font-size: 14pt;
     line-height: 1.25
   }
+
+.event {
+    font-size: 14pt;
+    line-height: 1.25;
+    padding-left: 1vw;
+}

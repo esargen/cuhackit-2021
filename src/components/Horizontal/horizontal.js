@@ -21,7 +21,8 @@ function Horizontal() {
           </div>
         </div>
         <div id="van"></div>
-      <div id="roadimg">
+        <div id="container"></div>
+        <div id="roadimg">
       </div>
     </div>
 
