@@ -1,4 +1,8 @@
-.horizontalInset {
+:root {
+  --arrowWidth: 20vw;
+}
+
+#horizontalInset {
   position: relative;
   height: 90%;
   margin-top: 10%;
@@ -6,6 +10,15 @@
   overflow-y: hidden;
   background-color: green;
 }
+
+// #mainHorizContent {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: flex-start;
+//   width: 400vw;
+//   height: 80%;
+//   z-index: 10;
+// }
 
 #roadimg {
   position: absolute;
@@ -15,31 +28,9 @@
   height: 100%;
   background-repeat: repeat-x;
   background-position: bottom;
-  z-index: 20;
+  z-index: 3;
 }
 
-
-
-// /*horizontal */
-
-// .container {
-//     display: flex;
-//     flex-wrap: nowrap;
-//     height: 100vh;
-//     width: 400vw;
-//     overflow: hidden;
-//     background-image: url("../../images/bg2.png");
-//     background-size: cover;
-//     background-position: center;
-//     margin-left: 0;
-//     z-index: 0;
-//   }
-
-  #horizontal {
-    overflow-x: scroll;
-    display: flex;
-    width: 100%;
-  }
 
   #cliffface {
     background-image: url("../../images/cliffface.png");
@@ -49,6 +40,7 @@
     z-index: 1;
     position: relative;
     width: 300vw;
+    float: left;
   }
 
   #clifffaceContent {
@@ -57,9 +49,7 @@
     justify-content: space-between;
   }
 
-  :root {
-    --arrowWidth: 20vw;
-  }
+ 
 
   #arrowContainer {
     height: 80vh;
@@ -88,26 +78,20 @@
     margin-top: -5vh;
   }
 
-
-
-
-
-
- 
-
   /* van */
 
-    #van {
-      background-image: url("../../images/van.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 400px;
-      width: 750px;
-      position: relative;
-      bottom: 0;
-      margin-top: auto;
-      z-index: 4;
-    }
+  #van {
+    background-image: url("../../images/van.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 750px;
+    position: relative;
+    z-index: 4;
+    margin-top: -400px;
+    margin-left: 270vw;
+    float: left;
+  }
 
 
 /* partners */
