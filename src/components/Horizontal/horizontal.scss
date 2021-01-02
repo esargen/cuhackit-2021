@@ -4,8 +4,7 @@
 
 #horizontalInset {
   position: relative;
-  height: 90%;
-  margin-top: 10%;
+  height: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
   background-color: green;
@@ -49,6 +48,7 @@
     max-width: 90%;
     display: flex;
     justify-content: space-between;
+    margin-top: 10vh;
   }
 
 
@@ -63,7 +63,7 @@
   position: relative;
   width: 500vw;
   float: left;
-  margin-top: -90vh;
+  margin-top: -100vh;
   margin-left: 0vw;
 }
 
