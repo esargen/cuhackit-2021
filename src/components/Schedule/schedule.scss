@@ -1,0 +1,42 @@
+ /*Schedule*/
+
+ #schedule {
+    margin-top: 12.5vh;
+  }
+
+  #schedule .text, #schedule h3 {
+    color: #edf0e2;
+  }
+
+  #schedule h3 {
+    margin-bottom: auto;
+  }
+
+  .hourly {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+  }
+
+  .hourly > p {
+    width: 25%;
+  }
+
+  .days {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+  }
+
+  .day {
+    margin-right: 5vw;
+  }
+
+  .dayname {
+    font-size: 21pt;
+  }
+
+  .event, .timestamp {
+    font-size: 14pt;
+    line-height: 1.25
+  }

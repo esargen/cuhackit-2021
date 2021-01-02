@@ -1,4 +1,4 @@
-import '../../App.scss';
+import './schedule.scss';
 import schedule from './schedule.json';
 
 const schedulearray = Array.from(schedule);
