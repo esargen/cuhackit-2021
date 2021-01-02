@@ -1,18 +1,26 @@
 [
   {
-    "imagelink": "https://cuhack.it/logos/splunk2crop.svg",
-    "url": "https://www.splunk.com/"
-  },
-  {
-    "imagelink": "https://cuhack.it/logos/AWS_logo_RGB.SVG",
+    "imagelink": "/logos/AWS_logo_RGB.SVG",
     "url": "https://aws.amazon.com/"
   },
   {
-    "imagelink": "https://cuhack.it/logos/SoftdocsCropped.svg",
-    "url": ""
+    "imagelink": "logos/splunk2crop.svg",
+    "url": "https://www.splunk.com/"
   },
   {
-    "imagelink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Capgemini_201x_logo.svg/1280px-Capgemini_201x_logo.svg.png",
+    "imagelink": "/logos/SoftdocsCropped.svg",
+    "url": "https://www.softdocs.com/"
+  },
+  {
+    "imagelink": "/logos/capgemini.png",
     "url": "https://www.capgemini.com/us-en/"
+  },
+  {
+    "imagelink": "/logos/LPL.png",
+    "url": "https://www.lpl.com/"
+  },
+  {
+    "imagelink": "/logos/ASH.png",
+    "url": "https://www.ashcompanies.com/"
   }
 ]

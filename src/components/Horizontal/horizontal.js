@@ -21,7 +21,9 @@ function Horizontal() {
           </div>
         </div>
         <div id="van"></div>
-        <div id="container"></div>
+        <div id="container">
+          <Partnercloud />
+        </div>
         <div id="roadimg">
       </div>
     </div>
@@ -31,7 +33,7 @@ function Horizontal() {
 {/* <div id="mainHorizContent"> */}
 
 
-{/* <Partnercloud />
+{/* 
 <div id="contact" class="text">
   <h3>Stay in touch!</h3>
   <a style={{textTransform: "none"}} href="https://docs.google.com/forms/d/e/1FAIpQLSeOQGq58yr8AliFswQaZ8zizYfVj8gdv6L8B-r6ZRjftwgGAg/viewform?usp=sf_link" class="newsletter">Sign up for our newsletter!</a>
