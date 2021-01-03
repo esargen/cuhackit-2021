@@ -1,7 +1,7 @@
-import './App.css';
+import './vertical.scss';
+import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import React, { useRef, useEffect } from 'react';
 
 
 function Vertical() {
@@ -53,6 +53,7 @@ function Vertical() {
         <h1>CUhackit</h1>
         <h2>January 30-31, 2021</h2>
       </div>
+      <a className="apply" href="https://cucheckin.herokuapp.com">Apply Now</a>
       <div ref={sand} id="sand">
       </div>
       <div ref={kite} id="kitegals">
