@@ -14,12 +14,13 @@
     padding: 15px;
     background-color: #eb8258;
     color: #edf0e2;
-    max-width: 20%;
+    max-width: 24%;
     border-radius: 20px;
     text-align: center;
     font-weight: 600;
     height: 30px;
     text-transform: none !important;
+    z-index: 5;
 }
 
 #contact h3 {
@@ -28,7 +29,7 @@
 }
 
 #socials {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     margin-right: 4vw;
@@ -42,6 +43,7 @@
     background-color: #edf0e2;
     border-radius: 100%;
     text-align: center;
+    z-index: 5;
 }
 
 #socialIcon{
