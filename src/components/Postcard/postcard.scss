@@ -1,6 +1,12 @@
 /* About */
 
 #about {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   width: 60vw;
   height: 75vh;
   background-color: #edf0e2;
@@ -11,6 +17,12 @@
 }
 
 #about > div {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   border: solid #eb8258;
   border-width: 10px;
   border-image: url("../../images/border.svg") 20 repeat;
@@ -26,10 +38,22 @@
 }
 
 .break {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   border-right: 3pt solid #2a9d8f;
 }
 
 .text {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   margin-left: 5vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -40,11 +64,23 @@
 }
 
 #about .text {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   max-width: 40%;
   max-height: 50%;
 }
 
 .text h3 {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   color: #264653;
   font-size: 28pt;
   margin-left: -2vw;
@@ -53,6 +89,12 @@
 }
 
 .line {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   max-height: 50%;
   height: 50%;
   width: 40%;
@@ -60,17 +102,35 @@
 }
 
 hr {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   text-align: center;
   color: #2a9d8f;
 }
 
 #wewantto {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   margin-top: 55%;
   margin-right: 5%;
 
 }
 
 #wewantto h3 {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   transform: rotate(-30deg);
   font-family: pacifico, sans-serif;
   font-weight: 700;
@@ -85,14 +145,32 @@ hr {
 }
 
 .lines br {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   line-height: 3;
 }
 
 .title {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   margin-left: 15vw;
 }
 
 .stamp {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   background-image: url("../../images/stamp.png");
   background-size: contain;
   background-repeat: no-repeat;

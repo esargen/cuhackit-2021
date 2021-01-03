@@ -6,15 +6,15 @@ function Postcard() {
   return (    
     <div id="about">
         <div>
-        <div class="text break">
+        <div className="text break">
             <h3>A Little About Us</h3>
             <p>Join us for a day of building, learning, and having fun at South Carolina’s premiere hackathon! Come with old friends or meet new ones at the event and get ready for an action-packed 24-hours. No matter your major or level of experience... </p>
         </div>
-        <div class="text" class="line">
-            <div class="stamp">
+        <div className="text" className="line">
+            <div className="stamp">
             </div>
             <div id="wewantto">
-            <div class="lines">
+            <div className="lines">
                 <hr />
                 <br />
                 <hr />

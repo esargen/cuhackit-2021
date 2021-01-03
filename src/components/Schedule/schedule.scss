@@ -1,55 +1,127 @@
  /*Schedule*/
 
  #schedule {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
     margin-top: -10vh;
   }
 
   #schedule .text, #schedule h3 {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     color: #edf0e2;
   }
 
   #schedule h3 {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     margin-bottom: auto;
   }
 
   .hourly {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     display: flex;
     justify-content: space-between;
     margin-bottom: .3vw;
   }
 
   .hourly > p {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     width: 25%;
   }
 
   .days {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     display: flex;
     justify-content: flex-start;
     width: 140vw;
   }
 
   .day  {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     margin-right: 5vw;
   }
 
   #Saturday {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     width: 80vw;
   }
 
 #Sunday {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
     width: 50vw;
   }
 
   .dayname {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
     font-size: 21pt;
   }
 
 .timestamp {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
     font-size: 14pt;
     line-height: 1.25
   }
 
 .event {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
     font-size: 14pt;
     line-height: 1.25;
     padding-left: 1vw;

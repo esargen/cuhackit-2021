@@ -1,8 +1,20 @@
 :root {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   --arrowWidth: 20vw;
 }
 
 #horizontalInset {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   position: relative;
   height: 100%;
   overflow-x: scroll;
@@ -12,6 +24,12 @@
 
 // // can't click links
 #roadimg {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   position: absolute;
   background-image: url("../../images/croppedRoad.png");
   background-size: 100%;
@@ -24,6 +42,12 @@
 }
 
 #cliffface {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   background-image: url("../../images/cliffface.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,6 +59,12 @@
 }
 
 #clifffaceContent {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   max-width: 90%;
   display: flex;
   justify-content: space-between;
@@ -42,6 +72,12 @@
 }
 
 #container {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   background-image: url("../../images/bg2.png");
   background-size: cover;
   background-repeat: repeat;
@@ -55,6 +91,12 @@
 }
 
 #arrowContainer {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -64,6 +106,12 @@
 }
 
 #arrow {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   background-image: url("../../images/arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -74,6 +122,12 @@
 }
 
 #arrowLabel {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   font-size: 21pt;
   color: #edf0e2;
   width: var(--arrowWidth);
@@ -82,6 +136,12 @@
 }
 
 #van {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
   background-image: url("../../images/van.png");
   background-size: contain;
   background-repeat: no-repeat;

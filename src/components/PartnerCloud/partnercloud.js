@@ -6,14 +6,14 @@ const partnersmap = Array.from(partners);
 function Partnercloud() {
 
   const Partnermap = partnersmap.map((partner, index) =>
-      <a class="partner" href={partner.url}>
+      <a className="partner" href={partner.url}>
         <img src={partner.imagelink} />
       </a>
   );
 
   return (
     <div id="partners">
-      <div class="text">
+      <div className="text">
         <h3>brought to you by</h3>
         <div id="partnercloud">
           {Partnermap}
