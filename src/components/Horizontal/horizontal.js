@@ -22,7 +22,7 @@ function Horizontal() {
           </div>
         </div>
         <div id="van"></div>
-        <div id="container">
+        <div id="skyContainer">
           <Partnercloud />
           <Contact />
         </div>

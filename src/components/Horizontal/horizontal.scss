@@ -11,98 +11,99 @@
 #horizontalInset {
   // mobile
   @media only screen and (max-width: 700px) {
+    position: relative;
+    width: 100vw;
+    height: 1000vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   //desktop
   @media only screen and (min-width: 700px) {
+    position: relative;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
-  position: relative;
-  height: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  background-color: green;
 }
 
 // // can't click links
 #roadimg {
   // mobile
   @media only screen and (max-width: 700px) {
+    display: none;
   }
   //desktop
   @media only screen and (min-width: 700px) {
+    position: absolute;
+    background-image: url("../../images/croppedRoad.png");
+    background-size: 100%;
+    width: 500%;
+    height: 100%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    z-index: 3;
+    pointer-events: none
   }
-  position: absolute;
-  background-image: url("../../images/croppedRoad.png");
-  background-size: 100%;
-  width: 500%;
-  height: 100%;
-  background-repeat: repeat-x;
-  background-position: bottom;
-  z-index: 3;
-  pointer-events: none
 }
 
 #cliffface {
   // mobile
   @media only screen and (max-width: 700px) {
+    background-color: var(--orange-color);
+    background-repeat: no-repeat;
+    height: 500vh;
+    z-index: 3;
+    position: relative;
+    width: 100vw;
+    float: left;
   }
   //desktop
   @media only screen and (min-width: 700px) {
+    background-image: url("../../images/cliffface.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 3;
+    position: relative;
+    width: 300vw;
+    float: left;
   }
-  background-image: url("../../images/cliffface.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  z-index: 3;
-  position: relative;
-  width: 300vw;
-  float: left;
 }
 
 #clifffaceContent {
   // mobile
   @media only screen and (max-width: 700px) {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10vh;
+    height: 300vh;
   }
   //desktop
   @media only screen and (min-width: 700px) {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
   }
-  max-width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10vh;
-}
-
-#container {
-  // mobile
-  @media only screen and (max-width: 700px) {
-  }
-  //desktop
-  @media only screen and (min-width: 700px) {
-  }
-  background-image: url("../../images/bg2.png");
-  background-size: cover;
-  background-repeat: repeat;
-  height: 100%;
-  z-index: 2;
-  position: relative;
-  width: 500vw;
-  float: left;
-  margin-top: -100vh;
-  margin-left: 0vw;
 }
 
 #arrowContainer {
   // mobile
   @media only screen and (max-width: 700px) {
+    display: none;
   }
   //desktop
   @media only screen and (min-width: 700px) {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-left: -20vw;
   }
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 10vh;
-  margin-left: -20vw;
 }
 
 #arrow {
@@ -154,6 +155,31 @@
   float: left;
 }
 
+#skyContainer {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    background-repeat: repeat;
+    height: 300vh;
+    z-index: 2;
+    position: relative;
+    width: 100vw;
+    float: left;
+    margin-top: -100vh;
+    margin-left: 0vw;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    background-color: var(--blue-color);
+    background-repeat: repeat;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    width: 500vw;
+    float: left;
+    margin-top: -100vh;
+    margin-left: 0vw;
+  }
+}
 
 
   
