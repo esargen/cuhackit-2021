@@ -14,7 +14,7 @@ function Partnercloud() {
   return (
     <div id="partners">
       <div className="text">
-        <h3>brought to you by</h3>
+        <h3>brought to you by:</h3>
         <div id="partnercloud">
           {Partnermap}
         </div>

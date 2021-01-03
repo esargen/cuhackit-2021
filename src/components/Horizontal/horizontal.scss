@@ -13,9 +13,12 @@
   @media only screen and (max-width: 700px) {
     position: relative;
     width: 100vw;
-    height: 1000vh;
+    height: 500vh;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   //desktop
   @media only screen and (min-width: 700px) {
@@ -51,7 +54,6 @@
   @media only screen and (max-width: 700px) {
     background-color: var(--orange-color);
     background-repeat: no-repeat;
-    height: 500vh;
     z-index: 3;
     position: relative;
     width: 100vw;
@@ -73,12 +75,12 @@
 #clifffaceContent {
   // mobile
   @media only screen and (max-width: 700px) {
-    max-width: 90%;
+    max-width: 100%;
+    max-height: 425vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 10vh;
-    height: 300vh;
   }
   //desktop
   @media only screen and (min-width: 700px) {
@@ -139,37 +141,39 @@
 #van {
   // mobile
   @media only screen and (max-width: 700px) {
+    display: none;
   }
   //desktop
   @media only screen and (min-width: 700px) {
+    background-image: url("../../images/van.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 750px;
+    position: relative;
+    z-index: 4;
+    margin-top: -400px;
+    margin-left: 270vw;
+    float: left;
   }
-  background-image: url("../../images/van.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 750px;
-  position: relative;
-  z-index: 4;
-  margin-top: -400px;
-  margin-left: 270vw;
-  float: left;
 }
 
 #skyContainer {
   // mobile
   @media only screen and (max-width: 700px) {
+    background-color: var(--blue-color);
     background-repeat: repeat;
     height: 300vh;
-    z-index: 2;
+    z-index: 4;
     position: relative;
     width: 100vw;
     float: left;
-    margin-top: -100vh;
     margin-left: 0vw;
   }
   //desktop
   @media only screen and (min-width: 700px) {
-    background-color: var(--blue-color);
+    background-image: url("../../images/bg2.png");
+    background-size: cover;
     background-repeat: repeat;
     height: 100%;
     z-index: 2;

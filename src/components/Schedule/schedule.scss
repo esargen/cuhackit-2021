@@ -40,8 +40,8 @@
   //desktop
   @media only screen and (min-width: 700px) {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: .3vw;
+    justify-content: flex-start;
+    margin-bottom: 0vh;
   }
 }
 
@@ -127,7 +127,7 @@
   }
   //desktop
   @media only screen and (min-width: 700px) {
-    font-size: 14pt;
+    font-size: 2vh;
     line-height: 1.25;
   }
 }
@@ -141,6 +141,6 @@
   }
   //desktop
   @media only screen and (min-width: 700px) {
-    font-size: 14pt;
+    font-size: 2vh;
   }
 }
