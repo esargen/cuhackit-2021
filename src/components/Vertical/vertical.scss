@@ -107,3 +107,42 @@ h1 {
     @media only screen and (min-width: 700px) {
     }
 }
+
+
+
+.apply {
+    // mobile
+    @media only screen and (max-width: 700px) {
+        position: absolute;
+        left: 15vw;
+        top: 30vh;
+        background-color: #eb8258;
+        color: #edf0e2;
+        width: 40vw;
+        height: 7vh;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 3vh;
+        height: 30px;
+        text-transform: none !important;
+        z-index: 5;
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+        position: absolute;
+        left: 15vw;
+        top: 45vh;
+        padding: 15px;
+        background-color: #eb8258;
+        color: #edf0e2;
+        max-width: 24%;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14pt;
+        height: 30px;
+        text-transform: none !important;
+        z-index: 5;
+    }
+}
