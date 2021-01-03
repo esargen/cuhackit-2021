@@ -1,7 +1,5 @@
 import './horizontal.scss';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import React, { useRef, useEffect, createRef } from 'react';
+import React from 'react';
 import Postcard from '../Postcard/postcard';
 import Schedule from '../Schedule/schedule';
 import Partnercloud from '../PartnerCloud/partnercloud';

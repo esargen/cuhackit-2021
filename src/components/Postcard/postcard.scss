@@ -107,7 +107,7 @@
   }
 }
 
-.line {
+#line {
   // mobile
   @media only screen and (max-width: 700px) {
     max-height: 50%;
@@ -138,30 +138,53 @@ hr {
 #wewantto {
   // mobile
   @media only screen and (max-width: 700px) {
+    margin-top: 130%;
+    margin-right: 5%;
   }
+
+  // SPECIAL (very finicky to make work)
+  @media only screen and (min-width: 500px) and (max-width: 700px) {
+    margin-top: 85%;
+    margin-right: 5%;
+  }
+
   //desktop
   @media only screen and (min-width: 700px) {
+    margin-top: 55%;
+    margin-right: 5%;
   }
-  margin-top: 55%;
-  margin-right: 5%;
 
 }
 
 #wewantto h3 {
   // mobile
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 500px) {
     transform: rotate(-30deg);
     font-family: pacifico, sans-serif;
     font-weight: 700;
     font-style: normal;
     position: relative;
-    bottom: 100px;
-    font-size: 2em;
+    bottom: 70px;
+    font-size: 1.5em;
     line-height: 1.5;
     color: #264653;
     margin-left: 3%;
-    margin-top: 2%;
   }
+
+  // SPECIAL (very finicky to make work)
+  @media only screen and (min-width: 500px) and (max-width: 700px) {
+    transform: rotate(-30deg);
+    font-family: pacifico, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    bottom: 90px;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: #264653;
+    margin-left: 3%;
+  }
+
   //desktop
   @media only screen and (min-width: 700px) {
     transform: rotate(-30deg);
