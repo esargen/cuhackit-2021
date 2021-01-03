@@ -5,8 +5,6 @@ html * {
 
 body {
   font-family: 'rooney-sans', sans-serif;
-  /* overscroll-behavior-y: none; */
-  /* background-image: linear-gradient(to right, rgb(239, 246, 249) , rgb(162, 204, 216)); */
 }
 
 h1 {
@@ -24,8 +22,17 @@ h2 {
   height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.divLine {
+  display: inline;
+  top: 0px;
+  width: 100vw;
+  height: 3px;
+  background-color: white;
+  z-index: 100;
 }
 
 

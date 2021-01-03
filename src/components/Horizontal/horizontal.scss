@@ -10,17 +10,6 @@
   background-color: green;
 }
 
-
-
-// #mainHorizContent {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: flex-start;
-//   width: 400vw;
-//   height: 80%;
-//   z-index: 10;
-// }
-
 #roadimg {
   position: absolute;
   background-image: url("../../images/road.png");
@@ -33,29 +22,26 @@
 }
 
 
-  #cliffface {
-    background-image: url("../../images/cliffface.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    z-index: 3;
-    position: relative;
-    width: 300vw;
-    float: left;
-  }
+#cliffface {
+  background-image: url("../../images/cliffface.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 3;
+  position: relative;
+  width: 300vw;
+  float: left;
+}
 
-  #clifffaceContent {
-    max-width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10vh;
-  }
-
+#clifffaceContent {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+}
 
 #container {
-  // overflow: hidden;
   background-image: url("../../images/bg2.png");
-  // background-color: blue;
   background-size: cover;
   background-repeat: repeat;
   height: 100%;
@@ -67,89 +53,46 @@
   margin-left: 0vw;
 }
 
- 
+#arrowContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10vh;
+  margin-left: -30vw;
+}
 
-  #arrowContainer {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 10vh;
-    margin-left: -30vw;
-  }
+#arrow {
+  background-image: url("../../images/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: var(--arrowWidth);
+  position: relative;
+  z-index: 4;
+}
 
-  #arrow {
-    background-image: url("../../images/arrow.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 30vh;
-    width: var(--arrowWidth);
-    position: relative;
-    z-index: 4;
-  }
+#arrowLabel {
+  font-size: 21pt;
+  color: #edf0e2;
+  width: var(--arrowWidth);
+  text-align: center;
+  margin-top: -5vh;
+}
 
-  #arrowLabel {
-    font-size: 21pt;
-    color: #edf0e2;
-    width: var(--arrowWidth);
-    text-align: center;
-    margin-top: -5vh;
-  }
-
-  /* van */
-
-  #van {
-    background-image: url("../../images/van.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 750px;
-    position: relative;
-    z-index: 4;
-    margin-top: -400px;
-    margin-left: 270vw;
-    float: left;
-  }
+#van {
+  background-image: url("../../images/van.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 750px;
+  position: relative;
+  z-index: 4;
+  margin-top: -400px;
+  margin-left: 270vw;
+  float: left;
+}
 
 
 
-  /* contact */
-
-  #contact {
-    min-width: 50vw;
-    margin-top: 17.5vh;
-  }
-
-
-  #contact > a {
-    padding: 15px;
-    background-color: #eb8258;
-    color: #edf0e2;
-    max-width: 20%;
-    border-radius: 20px;
-    text-align: center;
-    font-weight: 600;
-    text-transform: none !important;
-  }
-
-    #contact h3 {
-      color: #264653;
-      font-size: 42pt;
-    }
-
-    #socials {
-      width: 20%;
-      display: flex;
-      justify-content: space-between;
-      margin-top: 5vh;
-    }
-
-    #socials .social {
-      color: #eb8258;
-      text-transform: none;
-      flex: 20%;
-      max-width: 20%;
-      background-color: #edf0e2;
-      border-radius: 100%;
-      text-align: center;
-    }
+  

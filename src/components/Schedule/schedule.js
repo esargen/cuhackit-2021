@@ -7,16 +7,16 @@ function Schedule() {
 
   const Schedulemap = schedulearray.map((day, index) =>
     (Array.isArray(day.hours)) ?
-      <div class="day">
-      <h4 class="dayname">{day.day}</h4>
-      {day.hours.map((hour, index) =>
-        <div class="hourly">
-        <p class="timestamp">{hour.hour}</p>
-        {hour.activities.map((activity, index) =>
-          <p class="event">{activity}</p>
+      <div className="day" id={day.day}>
+        <h4 className="dayname">{day.day}</h4>
+        {day.hours.map((hour, index) =>
+          <div className="hourly">
+          <p className="timestamp">{hour.hour}</p>
+          {hour.activities.map((activity, index) =>
+            <p className="event">{activity}</p>
+          )}
+        </div>
         )}
-      </div>
-      )}
       </div>
       :
       ""
@@ -24,9 +24,9 @@ function Schedule() {
 
   return (
     <div id="schedule">
-      <div class="text">
+      <div className="text">
         <h3>Schedule</h3>
-        <div class="days">
+        <div className="days">
           {Schedulemap}
         </div>
       </div>

@@ -1,28 +1,28 @@
 /* partners */
 
 #partners {
-    margin-top: 12.5vh;
-    min-width: 75vw;
-    margin-left: 350vw;
-  }
+  margin-top: 12.5vh;
+  min-width: 75vw;
+  margin-left: 350vw;
+}
 
-  #partners h3 {
-    font-size: 18pt;
-  }
+#partners h3 {
+  font-size: 18pt;
+}
 
-  #partnercloud {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 50vw;
-  }
+#partnercloud {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50vw;
+}
 
-  .partner {
-    flex: 20%;
-    max-width: 20%;
-    margin-right: 5%;
-    margin-bottom: 3vh;
-  }
+.partner {
+  flex: 20%;
+  max-width: 20%;
+  margin-right: 5%;
+  margin-bottom: 3vh;
+}
 
-  .partner img {
-    width: 100%;
-  }
+.partner img {
+  width: 100%;
+}

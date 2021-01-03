@@ -15,7 +15,7 @@
   .hourly {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1vh;
+    margin-bottom: .3vw;
   }
 
   .hourly > p {
@@ -28,9 +28,16 @@
     width: 140vw;
   }
 
-  .day {
+  .day  {
     margin-right: 5vw;
-    width: 60vw;
+  }
+
+  #Saturday {
+    width: 80vw;
+  }
+
+#Sunday {
+    width: 50vw;
   }
 
   .dayname {

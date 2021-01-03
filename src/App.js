@@ -8,6 +8,7 @@ function App() {
     <div>
       <Vertical />
       <div className="horizWrapper">
+        <div className="divLine"></div>
         <Horizontal />
       </div>
     </div>
