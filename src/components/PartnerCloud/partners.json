@@ -4,6 +4,10 @@
     "url": "https://aws.amazon.com/"
   },
   {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/microsoftPadding.png",
+    "url": "https://www.microsoft.com/"
+  },
+  {
     "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/splunk2crop.svg",
     "url": "https://www.splunk.com/"
   },
@@ -12,7 +16,7 @@
     "url": "https://www.softdocs.com/"
   },
   {
-    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/capgemini.png",
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/capgeminiNoPadding.png",
     "url": "https://www.capgemini.com/us-en/"
   },
   {
