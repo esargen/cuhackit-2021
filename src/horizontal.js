@@ -1,7 +1,7 @@
 import './App.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import React, { useRef, useEffect, createRef } from 'react';
+import React, { useEffect, createRef } from 'react';
 import Schedule from './schedule';
 import Partnercloud from './partnercloud';
 
@@ -29,16 +29,6 @@ function Horizontal() {
               pin: true,
             },
         });
-        /*gsap.to(road.current, {
-          xPercent: -40,
-          x: window.innerWidth,
-          ease: "none",
-            scrollTrigger: {
-              trigger: ".container",
-              start: "top top",
-              scrub: true
-            },
-        });*/
         gsap.to(van.current, {
            ease: "1",
            xPercent: -100,

@@ -1,7 +1,7 @@
 import './App.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import React, { useRef, useEffect } from 'react';
+import React, { createRef, useEffect } from 'react';
 
 
 function Vertical() {
