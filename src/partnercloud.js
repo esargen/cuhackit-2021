@@ -7,7 +7,7 @@ function Partnercloud() {
 
   const Partnermap = partnersmap.map((partner, index) =>
       <a class="partner" href={partner.url}>
-        <img src={partner.imagelink} />
+        <img alt="partner" src={partner.imagelink} />
       </a>
   );
 
